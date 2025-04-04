@@ -1,6 +1,6 @@
 <template>
     <div class="p-8">
-      <h1 class="text-3xl">Lista de Empleos</h1>
+      <h1 class="text-3xl">Job Listings</h1>
       <JobList />
     </div>
   </template>
@@ -12,4 +12,3 @@
 
   store.fetchJobs()
   </script>
-  

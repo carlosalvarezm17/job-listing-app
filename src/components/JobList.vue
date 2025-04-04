@@ -2,7 +2,7 @@
     <div>
       <div class="filters">
         <select v-model="store.filter">
-          <option value="">Todos</option>
+          <option value="">All</option>
           <option>Frontend</option>
           <option>Backend</option>
           <option>Fullstack</option>
@@ -12,7 +12,7 @@
           class="outline-solid outline-offset-1 rounded-lg outline-blue-300"
           type="text"
           v-model="store.searchText"
-          placeholder="Buscar por título"
+          placeholder="Search by title"
         />
       </div>
   
@@ -23,22 +23,22 @@
       <div class="pagination">
         <button 
           data-testid="prev-button" 
-          aria-label="Página anterior"
+          aria-label="Previous page"
           :class="{'text-gray-300': store.currentPage <= 1}" 
           @click="prevPage" 
           :disabled="store.currentPage <= 1">
-          Anterior
+          Previous
         </button>
         <span>
-          Página {{ store.currentPage }} de {{ store.totalPages }}
+          Page {{ store.currentPage }} of {{ store.totalPages }}
         </span>
         <button 
           data-testid="next-button" 
-          aria-label="Página siguiente"
+          aria-label="Next page"
           :class="{'text-gray-300': store.currentPage >= store.totalPages}" 
           @click="nextPage" 
           :disabled="store.currentPage >= store.totalPages">
-          Siguiente
+          Next
         </button>
       </div>
     </div>

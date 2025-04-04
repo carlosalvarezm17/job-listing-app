@@ -8,7 +8,8 @@ describe('JobCard.vue', () => {
       id: 1,
       title: 'Frontend Developer',
       company: 'Tech Corp',
-      location: 'Remote'
+      location: 'Remote',
+      category: 'Frontend'
     }
 
     const wrapper = mount(JobCard, {
