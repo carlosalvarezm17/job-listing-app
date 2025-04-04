@@ -16,7 +16,7 @@ export const useJobStore = defineStore('jobStore', () => {
   const filter = ref<string>('')
   const searchText = ref<string>('')
   const currentPage = ref<number>(1)
-  const pageSize = ref<number>(5)
+  const pageSize = ref<number>(6)
 
   async function fetchJobs(): Promise<void> {
     try {

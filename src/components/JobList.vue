@@ -16,7 +16,7 @@
         />
       </div>
   
-      <div class="job-list">
+      <div class="job-list grid">
         <JobCard class="my-4" v-for="job in store.paginatedJobs" :key="job.id" :job="job" />
       </div>
   
@@ -77,5 +77,17 @@
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
+  }
+
+  .job-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  @media (min-width: 1024px) {
+    .job-list {
+      grid-template-columns: 1fr 1fr;
+    }
   }
   </style>
