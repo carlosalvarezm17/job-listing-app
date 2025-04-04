@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend Developer (Vue.js Specialist)",
+        "category": "Frontend",
+        "company": "TechCorp",
+        "description": "We're looking for a talented Vue.js developer to build and maintain user-facing features for our web applications.",
+        "location": "Remote"
+    },
+    {
+        "id": 2,
+        "title": "Backend Developer (Node.js Expert)",
+        "category": "Backend",
+        "company": "DevFirm",
+        "description": "Looking for a Node.js expert to design and implement scalable backend systems for our platform.",
+        "location": "New York"
+    },
+    {
+        "id": 3,
+        "title": "Fullstack Developer (Web Applications)",
+        "category": "Fullstack",
+        "company": "Innovatech",
+        "description": "Join our team as a Fullstack developer to create end-to-end solutions for our innovative web applications.",
+        "location": "San Francisco"
+    },
+    {
+        "id": 4,
+        "title": "DevOps Engineer (Cloud Infrastructure)",
+        "category": "DevOps",
+        "company": "CloudWorks",
+        "description": "Seeking a skilled DevOps engineer to manage and optimize our cloud infrastructure and CI/CD pipelines.",
+        "location": "Remote"
+    },
+    {
+        "id": 5,
+        "title": "Frontend Engineer (React Expert)",
+        "category": "Frontend",
+        "company": "Designify",
+        "description": "Frontend engineer with React experience to develop dynamic and responsive user interfaces.",
+        "location": "Austin"
+    },
+    {
+        "id": 6,
+        "title": "Backend Engineer (Python Specialist)",
+        "category": "Backend",
+        "company": "DataFlow",
+        "description": "Backend engineer with Python expertise to build robust and efficient data processing systems.",
+        "location": "Seattle"
+    },
+    {
+        "id": 7,
+        "title": "Fullstack Engineer (Web Development)",
+        "category": "Fullstack",
+        "company": "CodeFusion",
+        "description": "Fullstack engineer for web applications, responsible for both frontend and backend development.",
+        "location": "Boston"
+    },
+    {
+        "id": 8,
+        "title": "DevOps Specialist (AWS Expertise)",
+        "category": "DevOps",
+        "company": "Opsify",
+        "description": "DevOps specialist with AWS experience to enhance our deployment processes and cloud operations.",
+        "location": "Remote"
+    },
+    {
+        "id": 9,
+        "title": "Frontend Developer (Angular Expert)",
+        "category": "Frontend",
+        "company": "PixelPerfect",
+        "description": "Frontend developer with Angular skills to create high-performance and scalable web interfaces.",
+        "location": "Chicago"
+    },
+    {
+        "id": 10,
+        "title": "Backend Developer (Java Specialist)",
+        "category": "Backend",
+        "company": "ServerSide",
+        "description": "Backend developer with Java expertise to design and maintain enterprise-level backend systems.",
+        "location": "Denver"
+    },
+    {
+        "id": 11,
+        "title": "Fullstack Developer (SaaS Platforms)",
+        "category": "Fullstack",
+        "company": "BuildIt",
+        "description": "Fullstack developer for SaaS platforms, focusing on scalable and user-friendly solutions.",
+        "location": "Remote"
+    },
+    {
+        "id": 12,
+        "title": "DevOps Engineer (Kubernetes Specialist)",
+        "category": "DevOps",
+        "company": "DeployNow",
+        "description": "DevOps engineer with Kubernetes skills to manage containerized applications and orchestration.",
+        "location": "San Diego"
+    },
+    {
+        "id": 13,
+        "title": "Frontend Engineer (Vue.js Expert)",
+        "category": "Frontend",
+        "company": "UIWorks",
+        "description": "Frontend engineer with Vue.js expertise to create seamless and interactive user experiences.",
+        "location": "Remote"
+    },
+    {
+        "id": 14,
+        "title": "Backend Engineer (Go Developer)",
+        "category": "Backend",
+        "company": "APIPro",
+        "description": "Backend engineer with Go experience to build high-performance APIs and microservices.",
+        "location": "Miami"
+    },
+    {
+        "id": 15,
+        "title": "Fullstack Engineer (E-commerce Projects)",
+        "category": "Fullstack",
+        "company": "StackMasters",
+        "description": "Fullstack engineer for e-commerce projects, delivering complete solutions from frontend to backend.",
+        "location": "Remote"
+    },
+    {
+        "id": 16,
+        "title": "DevOps Specialist (CI/CD Expert)",
+        "category": "DevOps",
+        "company": "CloudOps",
+        "description": "DevOps specialist with CI/CD expertise to streamline our development and deployment workflows.",
+        "location": "Atlanta"
+    },
+    {
+        "id": 17,
+        "title": "Frontend Developer (Svelte Specialist)",
+        "category": "Frontend",
+        "company": "CreativeUI",
+        "description": "Frontend developer with Svelte experience to build modern and efficient web applications.",
+        "location": "Portland"
+    },
+    {
+        "id": 18,
+        "title": "Backend Developer (Ruby on Rails Expert)",
+        "category": "Backend",
+        "company": "LogicLayer",
+        "description": "Backend developer with Ruby on Rails skills to create scalable and maintainable backend systems.",
+        "location": "Dallas"
+    }
+]
