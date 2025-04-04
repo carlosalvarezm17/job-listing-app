@@ -6,7 +6,7 @@ To set up the project, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone <REPOSITORY_URL>
+   git clone <[REPOSITORY_URL](https://github.com/carlosalvarezm17/job-listing-app)>
    ```
 
 2. **Navigate to the project directory**:
