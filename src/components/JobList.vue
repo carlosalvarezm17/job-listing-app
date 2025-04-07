@@ -16,8 +16,8 @@
         />
       </div>
   
-      <div class="job-list grid">
-        <JobCard class="my-4" v-for="job in store.paginatedJobs" :key="job.id" :job="job" />
+      <div class="job-list flex flex-wrap gap-4">
+        <JobCard class="my-4 flex-1 min-w-[300px]" v-for="job in store.paginatedJobs" :key="job.id" :job="job" />
       </div>
   
       <div class="pagination">
@@ -77,17 +77,5 @@
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
-  }
-
-  .job-list {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  @media (min-width: 1024px) {
-    .job-list {
-      grid-template-columns: 1fr 1fr;
-    }
   }
   </style>
